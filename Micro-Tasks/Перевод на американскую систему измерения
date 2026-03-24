@@ -1,14 +1,1 @@
-#include <iostream>
-#include <iomanip>
 
-using namespace std;
-
-int main() {
-	setlocale(LC_ALL, "RUS");
-
-	double n;
-	cout << "Ввыдите колличество сантиметров: "; cin >> n;
-	cout << "Здесь " << fixed << setprecision(2) << n / 2.54 << " дюймов" << endl;
-
-	return 0;
-}
